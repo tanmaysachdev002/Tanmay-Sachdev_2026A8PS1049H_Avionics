@@ -1,0 +1,1006 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\tanma\\OneDrive\\Documents\\Aeolus\\Aeolus.kicad_sch")
+		(date "2026-09-13T04:20:43")
+		(tool "Eeschema 10.0.6")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "Aeolus.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "1")
+			(value "~")
+			(footprint "Package_DIP:DIP-24_W7.62mm")
+			(fields
+				(field
+					(name "Footprint") "Package_DIP:DIP-24_W7.62mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Parts")
+				(part "Pixhawk_6C_Mini")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Aeolus")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Aeolus.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7c6ffe8b-e5eb-4406-b96a-2c9bfbf35b11")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "BT1")
+			(value "Battery")
+			(footprint "Package_SON:Texas_DRC0010J_ThermalVias")
+			(description "Multiple-cell battery")
+			(fields
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
+				(field
+					(name "Footprint") "Package_SON:Texas_DRC0010J_ThermalVias")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Multiple-cell battery")
+			)
+			(libsource
+				(lib "Device")
+				(part "Battery")
+				(description "Multiple-cell battery")
+			)
+			(property
+				(name "Sim.Device")
+				(value "V")
+			)
+			(property
+				(name "Sim.Type")
+				(value "DC")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=+ 2=-")
+			)
+			(property
+				(name "Sheetname")
+				(value "Aeolus")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Aeolus.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "batt voltage-source cell")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3d95a074-d593-478c-9125-42a6a94390b2")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J1")
+			(value "Power Module")
+			(description "Generic connector, single row, 01x02, script generated")
+			(fields
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x02_Pin")
+				(description "Generic connector, single row, 01x02, script generated")
+			)
+			(property
+				(name "Sheetname")
+				(value "Aeolus")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Aeolus.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "036c3192-9baa-42b2-8082-05bb2020749e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SiKRadioV3")
+			(value "~")
+			(footprint "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm")
+			(fields
+				(field
+					(name "Footprint") "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Parts")
+				(part "SiK_Radio_V3")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Aeolus")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Aeolus.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "c3bc6fa9-0a39-49f6-b06c-786214f5d9e4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U1")
+			(value "RP3 Reciever")
+			(footprint "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm")
+			(fields
+				(field
+					(name "Footprint") "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Parts")
+				(part "RP3_Reciever")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Aeolus")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Aeolus.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "56dfe9b1-b4bb-4985-874e-c4a19b15c57a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U3")
+			(value "DJI O3 Air Unit")
+			(footprint "Oscillator:Oscillator_DIP-14")
+			(fields
+				(field
+					(name "Footprint") "Oscillator:Oscillator_DIP-14")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "Parts")
+				(part "DJI_O3_AirUnit")
+				(description "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Aeolus")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Aeolus.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fd23db7a-4d17-44c5-b47d-3bb351e80a32")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x02_Pin")
+			(description "Generic connector, single row, 01x02, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x02_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x02, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Battery")
+			(description "Multiple-cell battery")
+			(fields
+				(field
+					(name "Reference") "BT")
+				(field
+					(name "Value") "Battery")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Multiple-cell battery")
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Parts")
+			(part "DJI_O3_AirUnit")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VBAT")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "UART_TX")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "UART_RX")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Parts")
+			(part "Pixhawk_6C_Mini")
+			(fields
+				(field
+					(name "Reference")
+				)
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "")
+					(name "POWER_GND")
+					(type "input")
+				)
+				(pin
+					(num "1")
+					(name "TELEM1_VCC")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "TELEM1_TX")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "TELEM1_RX")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "TELEM1_CTS")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "TELEM1_RTS")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "TELEM1_GND")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "UART_TX")
+					(type "input")
+				)
+				(pin
+					(num "8")
+					(name "UART_RX")
+					(type "input")
+				)
+				(pin
+					(num "9")
+					(name "UART_VCC")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "UART_GND")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "UART2_TX")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "UART2_RX")
+					(type "input")
+				)
+				(pin
+					(num "13")
+					(name "POWER_VCC")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Parts")
+			(part "RP3_Reciever")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "5V")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "TX")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "RX")
+					(type "input")
+				)
+			)
+		)
+		(libpart
+			(lib "Parts")
+			(part "SiK_Radio_V3")
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VCC")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "TX")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "RX")
+					(type "input")
+				)
+				(pin
+					(num "4")
+					(name "CTS")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "RTS")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "GND")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Parts")
+			(uri "${KIPRJMOD}/Parts.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+5V")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "13")
+				(pinfunction "POWER_VCC_13")
+				(pintype "input")
+			)
+			(node
+				(ref "BT1")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "1")
+				(pinfunction "VBAT_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "2")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "")
+				(pinfunction "POWER_GND_")
+				(pintype "input")
+			)
+			(node
+				(ref "BT1")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J1")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "U3")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "3")
+			(name "Net-(1-TELEM1_CTS)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "4")
+				(pinfunction "TELEM1_CTS_4")
+				(pintype "input")
+			)
+			(node
+				(ref "SiKRadioV3")
+				(pin "5")
+				(pinfunction "RTS_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "4")
+			(name "Net-(1-TELEM1_GND)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "6")
+				(pinfunction "TELEM1_GND_6")
+				(pintype "input")
+			)
+			(node
+				(ref "SiKRadioV3")
+				(pin "6")
+				(pinfunction "GND_6")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "Net-(1-TELEM1_RTS)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "5")
+				(pinfunction "TELEM1_RTS_5")
+				(pintype "input")
+			)
+			(node
+				(ref "SiKRadioV3")
+				(pin "4")
+				(pinfunction "CTS_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "6")
+			(name "Net-(1-TELEM1_RX)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "3")
+				(pinfunction "TELEM1_RX_3")
+				(pintype "input")
+			)
+			(node
+				(ref "SiKRadioV3")
+				(pin "2")
+				(pinfunction "TX_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "7")
+			(name "Net-(1-TELEM1_TX)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "2")
+				(pinfunction "TELEM1_TX_2")
+				(pintype "input")
+			)
+			(node
+				(ref "SiKRadioV3")
+				(pin "3")
+				(pinfunction "RX_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "8")
+			(name "Net-(1-TELEM1_VCC)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "1")
+				(pinfunction "TELEM1_VCC_1")
+				(pintype "input")
+			)
+			(node
+				(ref "SiKRadioV3")
+				(pin "1")
+				(pinfunction "VCC_1")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "9")
+			(name "Net-(1-UART2_RX)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "12")
+				(pinfunction "UART2_RX_12")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "3")
+				(pinfunction "UART_TX_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "10")
+			(name "Net-(1-UART2_TX)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "11")
+				(pinfunction "UART2_TX_11")
+				(pintype "input")
+			)
+			(node
+				(ref "U3")
+				(pin "4")
+				(pinfunction "UART_RX_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "11")
+			(name "Net-(1-UART_GND)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "10")
+				(pinfunction "UART_GND_10")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "Net-(1-UART_RX)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "8")
+				(pinfunction "UART_RX_8")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "3")
+				(pinfunction "TX_3")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "Net-(1-UART_TX)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "7")
+				(pinfunction "UART_TX_7")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "4")
+				(pinfunction "RX_4")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "Net-(1-UART_VCC)")
+			(class "Default")
+			(node
+				(ref "1")
+				(pin "9")
+				(pinfunction "UART_VCC_9")
+				(pintype "input")
+			)
+			(node
+				(ref "U1")
+				(pin "1")
+				(pinfunction "5V_1")
+				(pintype "input")
+			)
+		)
+	)
+)
